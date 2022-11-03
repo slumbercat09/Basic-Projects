@@ -1,0 +1,5 @@
+function tipCalculator(total, percentage) {
+    return total += (total * percentage);
+}
+
+console.log(tipCalculator(200, 0.2));
